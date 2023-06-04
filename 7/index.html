@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>安農溪泛舟</h1>
+        <video id="myVideo" width="600" height="400"></video>
+        <br>
+        <div>
+            <p>
+                Volume :  <span id="volumeDisplay">?</span>
+                <button id="lowerVolumeBtn">-</button>
+                <button id="higherVolumeBtn">+ </button>
+            </p>
+        </div>
+        <div>
+            <p>Time : <span id="timeDisplay">? / ?</span>
+                <br>
+                <input type="range" id="progressBar" min="0" value="0">
+            </p>
+        </div>
+        <h1>地點:宜蘭-上將泛舟</h1>
+        <button id="playBtn">Play</button>
+        <button id="fullBtn">FullScreen</button>
+        <script src="https://unpkg.com/jquery@3.7.0/dist/jquery.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

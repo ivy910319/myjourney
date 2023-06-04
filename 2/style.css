@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: #f0f0f0; /* 設定背景顏色 */
+    background-image: url('back.jpg'); /* 設定背景圖片 */
+    background-repeat: no-repeat; /* 背景圖片不重複 */
+    background-size: cover; /* 自動縮放背景圖片以填滿元素 */
+}
+h2{
+    height: 32px;
+    font-size: medium;
+}
+table{
+    width: 60%;
+    margin:auto;
+    font-size:1.5em;
+    border: 10px solid #ebeea2c4;
+}
+
+td{
+    border-bottom: 1px solid black;
+}
+#courseTable tr:nth-child(even){background-color: #eceea2;}
+#courseTable tr:nth-child(odd){background-color: rgb(250, 249, 193);}
